@@ -14,5 +14,14 @@ public class controllers {
 		return "Hello Dash app is started";
 	}
 	
+	
+	@GetMapping("/checks")
+	public String checkNew() {
+		return "Hello Dash app is started am creatig the new app";
+	}
+	
+	
+	
+	
 
 }
